@@ -82,7 +82,7 @@ func main() {
 	}
 
 	t := time.Now()
-	color.Yellow("Welcome to Alyx's Discord Sniper.")
+	color.Yellow("Welcome to Alyx's Discord Sniper. Contact Alyx#7777")
 	color.Yellow("Currently active in " + strconv.Itoa(len(dg.State.Guilds)) + " servers.\n\n")
 
 	magenta.Print(t.Format("15:04:05 "))
